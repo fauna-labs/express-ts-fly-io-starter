@@ -6,7 +6,11 @@ This repository contains unofficial patterns, sample code, or tools to help deve
 
 A starter kit for Express with Typescript, packaged to run on Fly, and using Fauna as the database. 
 
-> Note: Typescript is not a requirement for running Fauna.
+> Note: Typescript is not a requirement for running Fauna but we've decided to showcase using Fauna
+> with Typescript since it is a popular combination. 
+ 
+Whether or not you're looking to run an express server  on Fly, the `package.json`, `tsconfig.json` and `app.ts` files provide a helpful starter kit for combining Typescript with Express. Then the `Dockerfile`, `.dockerignore` and `fly.toml` files make the project ready to deploy on Fly.
+
 ---
 
 ## Prerequisites
