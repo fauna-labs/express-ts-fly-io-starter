@@ -4,7 +4,7 @@
 #
 
 app = "express-ts-fauna-starter"
-primary_region = "sjc"
+primary_region = "iad"
 
 [http_service]
   internal_port = 3000
