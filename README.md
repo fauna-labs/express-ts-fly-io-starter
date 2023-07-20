@@ -137,7 +137,7 @@ Followed by this command:
 fly scale count 3 --max-per-region=1
 ```
 
-This would scale up the app to have 3 VMs, each in one of the specified regions.
+This would scale up the app to have 3 VMs, each in one of the specified Fly.io regions. There is nothing else that needs to be updated in the code or Fauna configuration, because Fauna automatically routes requests to the closest replica based on latency and availability. 
 
 
 [fauna]: https://www.fauna.com/
