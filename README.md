@@ -4,8 +4,6 @@ This repository contains unofficial patterns, sample code, or tools to help deve
 
 # Node Express with Typescript Fly.io starter for Fauna
 
-## Introduction
-
 *[Fauna](https://fauna.com/) is a distributed relational database with a document data model. Delivered as an API, Fauna is automatically configured – out of the box – as a three replica database with active-active write capability, making it a powerful complement to [Fly.io](https://fly.io/) in serving low latency reads and writes for dynamic global applications.*
 
 This starter kit provides a sample Fauna integration with Express and Typescript, and coniguration to run on Fly.io
@@ -17,7 +15,7 @@ Whether or not you're looking to run an express server  on Fly, the `package.jso
 ---
 
 ## Prerequisites
-* Node 16 or greater
+* Node
 * [flyctl](https://fly.io/docs/hands-on/install-flyctl/)
 
 ## Create a Fauna database and generate an access key
