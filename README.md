@@ -4,10 +4,13 @@ This repository contains unofficial patterns, sample code, or tools to help deve
 
 # Node Express with Typescript Fly.io starter for Fauna
 
-A starter kit for Express with Typescript, packaged to run on Fly.io, and using Fauna as the database. 
+## Introduction
 
-> Note: Typescript is not a requirement for running Fauna but we've decided to showcase using Fauna
-> with Typescript since it is a popular combination. 
+*[Fauna](https://fauna.com/) is a distributed relational database with a document data model. Delivered as an API, Fauna is automatically configured – out of the box – as a three replica database with active-active write capability, making it a powerful complement to [Fly.io](https://fly.io/) in serving low latency reads and writes for dynamic global applications.*
+
+This starter kit provides a sample Fauna integration with Express and Typescript, and coniguration to run on Fly.io
+
+> *__Note__: Typescript is not a requirement for running Fauna but we've decided to showcase using Fauna with Typescript since it is a popular combination.
  
 Whether or not you're looking to run an express server  on Fly, the `package.json`, `tsconfig.json` and `app.ts` files provide a helpful starter kit for combining Typescript with Express. Then the `Dockerfile`, `.dockerignore` and `fly.toml` files make the project ready to deploy on Fly.
 
