@@ -6,7 +6,7 @@ This repository contains unofficial patterns, sample code, or tools to help deve
 
 *[Fauna](https://fauna.com/) is a distributed relational database with a document data model. Delivered as an API, Fauna is automatically configured – out of the box – as a three replica database with active-active write capability, making it a powerful complement to [Fly.io](https://fly.io/) in serving low latency reads and writes for dynamic global applications.*
 
-This starter kit provides a sample Fauna integration with Express and Typescript, and coniguration to run on Fly.io
+This starter kit provides a sample Fauna integration with Express and Typescript, and configured to run on Fly.io
 
 > *__Note__: Typescript is not a requirement for running Fauna but we've decided to showcase using Fauna with Typescript since it is a popular combination.
  
