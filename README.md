@@ -36,7 +36,7 @@ npm install && npm run build
 
 __Now, load some sample data (**Note**: This will be using the Fauna key from above, which should now be set in the `.env` file)__:
 ```
-node scripts/run.mjs
+node sample/load.mjs
 ```
 
 Then start express:
