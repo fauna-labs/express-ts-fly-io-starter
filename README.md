@@ -20,9 +20,9 @@ Whether or not you're looking to run an express server  on Fly, the `package.jso
 
 ## Create a Fauna database and generate an access key
 
-* [Signup](https://dashboard.fauna.com/accounts/register) for a Fauna account if you don't have one already.
-* Create a database and access key according to [these instructions](https://docs.fauna.com/fauna/current/learn/quick_start/client_quick_start?lang=javascript).
-* Copy the `.env.example` file (in the root of this project) into a new file named `.env` and populate the variable FAUNA_SECRET_KEY with the access key from above:
+* [Signup](https://dashboard.fauna.com/register) for a Fauna account if you don't have one already.
+* Create a database and database access token according to [these instructions](https://docs.fauna.com/fauna/current/get_started/client_quick_start?lang=javascript).
+* Copy the `.env.example` file (in the root of this project) into a new file named `.env` and populate the variable FAUNA_SECRET_KEY with the database access token from above:
   ```
   FAUNA_SECRET_KEY="xxxxxxxx-xxxxxxxxx"
   ```

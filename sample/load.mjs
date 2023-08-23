@@ -24,17 +24,17 @@ async function createDocument(collection, data) {
 
     if (collection == 'product') {
       postProcess = fql`
-        ${data.coll}.byId(newdoc.id).update({
+        ${data.coll}.byId(newdoc.id)!.update({
           store: store.byId(newdoc.store)
         })
       `
     }
     else if (collection == 'order') {
       postProcess = fql`
-        ${data.coll}.byId(newdoc.id).update({
+        ${data.coll}.byId(newdoc.id)!.update({
           customer: customer.byId(newdoc.customer),
           creationDate: Time(newdoc.creationDate),
-          orderProducts: newdoc.orderProducts.map(x=>{
+          orderProducts: newdoc.orderProducts!.map(x=>{
             Object.assign(x, { product: product.byId(x.product) })
           })
         })
