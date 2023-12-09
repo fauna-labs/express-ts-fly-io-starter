@@ -64,7 +64,7 @@ docker run -p 3000:3000 --env FAUNA_SECRET_KEY="<the-fauna-access-key>" express-
 
 ## Deploy to Fly.io
 
-To launch the app on fly, run `flyctl launch` in the root directory of this project.
+To launch the app on fly, run `fly launch --no-deploy` in the root directory of this project.
 You will be prompted for a couple things:
 
 * `? Would you like to copy its configuration to the new app? (y/N)` **Choose y (Yes)**
